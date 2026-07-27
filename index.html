@@ -941,38 +941,128 @@
 
 <!-- 3rd Section -->
 
-<section class="py-12 bg-white sm:py-16 lg:py-20">
+<section class="py-12 bg-white sm:py-16 lg:py-20 overflow-hidden relative">
     <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-        <div class="xl:flex xl:items-center xl:justify-between">
-            <h2 class="text-xl font-bold text-center text-gray-400 xl:text-left font-pj">1000+ Big brands trust us</h2>
-            
-            <div class="grid items-center grid-cols-1 mt-10 gap-y-6 xl:mt-0 sm:grid-cols-2 sm:gap-y-8 lg:grid-cols-4 lg:gap-x-8">
-                <img class="object-contain w-auto mx-auto h-9" src="images/brands/brand (1).png" alt="" />
-                <img class="object-contain w-auto mx-auto h-9" src="images/brands/brand (2).png" alt="" />
-                <img class="object-contain w-auto mx-auto h-9" src="images/brands/brand (3).png" alt="" />
-                <img class="object-contain w-auto mx-auto h-9" src="images/brands/brand (4).png" alt="" />
-                <img class="object-contain w-auto mx-auto h-9" src="images/brands/brand (5).png" alt="" />
-                <img class="object-contain w-auto mx-auto h-9" src="images/brands/brand (6).png" alt="" />
-                <img class="object-contain w-auto mx-auto h-9" src="images/brands/brand (7).png" alt="" />
-                <img class="object-contain w-auto mx-auto h-9" src="images/brands/brand (8).png" alt="" />
-                <img class="object-contain w-auto mx-auto h-9" src="images/brands/brand (9).png" alt="" />
-                <img class="object-contain w-auto mx-auto h-9" src="images/brands/brand (10).png" alt="" />
-                <img class="object-contain w-auto mx-auto h-9" src="images/brands/brand (11).png" alt="" />
-                <img class="object-contain w-auto mx-auto h-9" src="images/brands/brand (12).png" alt="" />
-                <img class="object-contain w-auto mx-auto h-9" src="images/brands/brand (13).png" alt="" />
-                <img class="object-contain w-auto mx-auto h-9" src="images/brands/brand (14).png" alt="" />
-                <img class="object-contain w-auto mx-auto h-9" src="images/brands/brand (15).png" alt="" />
-                <img class="object-contain w-auto mx-auto h-9" src="images/brands/brand (16).png" alt="" />
-                <img class="object-contain w-auto mx-auto h-9" src="images/brands/brand (17).png" alt="" />
-                <img class="object-contain w-auto mx-auto h-9" src="images/brands/brand (18).png" alt="" />
-                <img class="object-contain w-auto mx-auto h-9" src="images/brands/brand (19).png" alt="" />
-                <img class="object-contain w-auto mx-auto h-9" src="images/brands/brand (20).png" alt="" />
-                
+        <!-- Header -->
+        <div class="flex flex-col xl:flex-row xl:items-center xl:justify-between mb-12">
+            <div>
+                <div class="flex items-center gap-2 mb-2">
+                    <span class="w-2 h-2 bg-orange-500 rounded-full animate-pulse"></span>
+                    <span class="text-xs font-bold tracking-widest text-orange-500 uppercase">Trusted Worldwide</span>
+                </div>
+                <h2 class="text-3xl font-bold text-gray-900 font-pj">1000+ Big brands trust us</h2>
+                <p class="mt-2 text-sm text-gray-500">Trusted by world's largest book printers & publishers</p>
             </div>
         </div>
     </div>
-</section>
 
+    <!-- Carousel Wrapper with Fade Masks -->
+    <div class="relative">
+        <!-- Fade Edges -->
+        <div class="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none"></div>
+        <div class="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none"></div>
+
+        <!-- ROW 1 - Scrolls Left -->
+        <div class="flex overflow-hidden group">
+            <div class="flex gap-6 animate-marquee-left group-hover:[animation-play-state:paused]">
+                <!-- Your 10 logos + duplicate for seamless loop -->
+                <div class="flex gap-6 shrink-0">
+                    <div class="w-48 h-20 bg-white border border-gray-100 rounded-2xl shadow-sm flex items-center justify-center p-4 hover:shadow-md hover:scale-105 transition-all duration-300">
+                        <img src="images/brands/brand (1).png" alt="Quad Graphics" class="object-contain h-9 w-auto grayscale hover:grayscale-0 transition-all">
+                    </div>
+                    <div class="w-48 h-20 bg-white border border-gray-100 rounded-2xl shadow-sm flex items-center justify-center p-4 hover:shadow-md hover:scale-105 transition-all duration-300">
+                        <img src="images/brands/brand (2).png" alt="RR Donnelley" class="object-contain h-9 w-auto grayscale hover:grayscale-0 transition-all">
+                    </div>
+                    <div class="w-48 h-20 bg-white border border-gray-100 rounded-2xl shadow-sm flex items-center justify-center p-4 hover:shadow-md hover:scale-105 transition-all duration-300">
+                        <img src="images/brands/brand (3).png" alt="LSC" class="object-contain h-9 w-auto grayscale hover:grayscale-0 transition-all">
+                    </div>
+                    <div class="w-48 h-20 bg-white border border-gray-100 rounded-2xl shadow-sm flex items-center justify-center p-4 hover:shadow-md hover:scale-105 transition-all duration-300">
+                        <img src="images/brands/brand (4).png" alt="Toppan" class="object-contain h-9 w-auto grayscale hover:grayscale-0 transition-all">
+                    </div>
+                    <div class="w-48 h-20 bg-white border border-gray-100 rounded-2xl shadow-sm flex items-center justify-center p-4 hover:shadow-md hover:scale-105 transition-all duration-300">
+                        <img src="images/brands/brand (5).png" alt="DNP" class="object-contain h-9 w-auto grayscale hover:grayscale-0 transition-all">
+                    </div>
+                    <div class="w-48 h-20 bg-white border border-gray-100 rounded-2xl shadow-sm flex items-center justify-center p-4 hover:shadow-md hover:scale-105 transition-all duration-300">
+                        <img src="images/brands/brand (6).png" alt="Bertelsmann" class="object-contain h-9 w-auto grayscale hover:grayscale-0 transition-all">
+                    </div>
+                    <div class="w-48 h-20 bg-white border border-gray-100 rounded-2xl shadow-sm flex items-center justify-center p-4 hover:shadow-md hover:scale-105 transition-all duration-300">
+                        <img src="images/brands/brand (7).png" alt="Transcontinental" class="object-contain h-9 w-auto grayscale hover:grayscale-0 transition-all">
+                    </div>
+                    <div class="w-48 h-20 bg-white border border-gray-100 rounded-2xl shadow-sm flex items-center justify-center p-4 hover:shadow-md hover:scale-105 transition-all duration-300">
+                        <img src="images/brands/brand (8).png" alt="CPI" class="object-contain h-9 w-auto grayscale hover:grayscale-0 transition-all">
+                    </div>
+                    <div class="w-48 h-20 bg-white border border-gray-100 rounded-2xl shadow-sm flex items-center justify-center p-4 hover:shadow-md hover:scale-105 transition-all duration-300">
+                        <img src="images/brands/brand (9).png" alt="Lakeside" class="object-contain h-9 w-auto grayscale hover:grayscale-0 transition-all">
+                    </div>
+                    <div class="w-48 h-20 bg-white border border-gray-100 rounded-2xl shadow-sm flex items-center justify-center p-4 hover:shadow-md hover:scale-105 transition-all duration-300">
+                        <img src="images/brands/brand (10).png" alt="Walsworth" class="object-contain h-9 w-auto grayscale hover:grayscale-0 transition-all">
+                    </div>
+                </div>
+                <!-- Duplicate for seamless -->
+                <div class="flex gap-6 shrink-0" aria-hidden="true">
+                    <div class="w-48 h-20 bg-white border border-gray-100 rounded-2xl shadow-sm flex items-center justify-center p-4"><img src="images/brands/brand (1).png" class="object-contain h-9 w-auto grayscale"></div>
+                    <div class="w-48 h-20 bg-white border border-gray-100 rounded-2xl shadow-sm flex items-center justify-center p-4"><img src="images/brands/brand (2).png" class="object-contain h-9 w-auto grayscale"></div>
+                    <div class="w-48 h-20 bg-white border border-gray-100 rounded-2xl shadow-sm flex items-center justify-center p-4"><img src="images/brands/brand (3).png" class="object-contain h-9 w-auto grayscale"></div>
+                    <div class="w-48 h-20 bg-white border border-gray-100 rounded-2xl shadow-sm flex items-center justify-center p-4"><img src="images/brands/brand (4).png" class="object-contain h-9 w-auto grayscale"></div>
+                    <div class="w-48 h-20 bg-white border border-gray-100 rounded-2xl shadow-sm flex items-center justify-center p-4"><img src="images/brands/brand (5).png" class="object-contain h-9 w-auto grayscale"></div>
+                    <div class="w-48 h-20 bg-white border border-gray-100 rounded-2xl shadow-sm flex items-center justify-center p-4"><img src="images/brands/brand (6).png" class="object-contain h-9 w-auto grayscale"></div>
+                    <div class="w-48 h-20 bg-white border border-gray-100 rounded-2xl shadow-sm flex items-center justify-center p-4"><img src="images/brands/brand (7).png" class="object-contain h-9 w-auto grayscale"></div>
+                    <div class="w-48 h-20 bg-white border border-gray-100 rounded-2xl shadow-sm flex items-center justify-center p-4"><img src="images/brands/brand (8).png" class="object-contain h-9 w-auto grayscale"></div>
+                    <div class="w-48 h-20 bg-white border border-gray-100 rounded-2xl shadow-sm flex items-center justify-center p-4"><img src="images/brands/brand (9).png" class="object-contain h-9 w-auto grayscale"></div>
+                    <div class="w-48 h-20 bg-white border border-gray-100 rounded-2xl shadow-sm flex items-center justify-center p-4"><img src="images/brands/brand (10).png" class="object-contain h-9 w-auto grayscale"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ROW 2 - Scrolls Right (Reverse) -->
+        <div class="flex overflow-hidden group mt-6">
+            <div class="flex gap-6 animate-marquee-right group-hover:[animation-play-state:paused]">
+                <div class="flex gap-6 shrink-0">
+                    <div class="w-48 h-20 bg-white border border-gray-100 rounded-2xl shadow-sm flex items-center justify-center p-4 hover:shadow-md hover:scale-105 transition-all duration-300"><img src="images/brands/brand (11).png" alt="CJK" class="object-contain h-9 w-auto grayscale hover:grayscale-0"></div>
+                    <div class="w-48 h-20 bg-white border border-gray-100 rounded-2xl shadow-sm flex items-center justify-center p-4 hover:shadow-md hover:scale-105 transition-all duration-300"><img src="images/brands/brand (12).png" alt="Sheridan" class="object-contain h-9 w-auto grayscale hover:grayscale-0"></div>
+                    <div class="w-48 h-20 bg-white border border-gray-100 rounded-2xl shadow-sm flex items-center justify-center p-4 hover:shadow-md hover:scale-105 transition-all duration-300"><img src="images/brands/brand (13).png" alt="Marquis" class="object-contain h-9 w-auto grayscale hover:grayscale-0"></div>
+                    <div class="w-48 h-20 bg-white border border-gray-100 rounded-2xl shadow-sm flex items-center justify-center p-4 hover:shadow-md hover:scale-105 transition-all duration-300"><img src="images/brands/brand (14).png" alt="Friesens" class="object-contain h-9 w-auto grayscale hover:grayscale-0"></div>
+                    <div class="w-48 h-20 bg-white border border-gray-100 rounded-2xl shadow-sm flex items-center justify-center p-4 hover:shadow-md hover:scale-105 transition-all duration-300"><img src="images/brands/brand (15).png" alt="Cenveo" class="object-contain h-9 w-auto grayscale hover:grayscale-0"></div>
+                    <div class="w-48 h-20 bg-white border border-gray-100 rounded-2xl shadow-sm flex items-center justify-center p-4 hover:shadow-md hover:scale-105 transition-all duration-300"><img src="images/brands/brand (16).png" alt="Quebecor" class="object-contain h-9 w-auto grayscale hover:grayscale-0"></div>
+                    <div class="w-48 h-20 bg-white border border-gray-100 rounded-2xl shadow-sm flex items-center justify-center p-4 hover:shadow-md hover:scale-105 transition-all duration-300"><img src="images/brands/brand (17).png" alt="King" class="object-contain h-9 w-auto grayscale hover:grayscale-0"></div>
+                    <div class="w-48 h-20 bg-white border border-gray-100 rounded-2xl shadow-sm flex items-center justify-center p-4 hover:shadow-md hover:scale-105 transition-all duration-300"><img src="images/brands/brand (18).png" alt="Thomson Shore" class="object-contain h-9 w-auto grayscale hover:grayscale-0"></div>
+                    <div class="w-48 h-20 bg-white border border-gray-100 rounded-2xl shadow-sm flex items-center justify-center p-4 hover:shadow-md hover:scale-105 transition-all duration-300"><img src="images/brands/brand (19).png" alt="Versa" class="object-contain h-9 w-auto grayscale hover:grayscale-0"></div>
+                    <div class="w-48 h-20 bg-white border border-gray-100 rounded-2xl shadow-sm flex items-center justify-center p-4 hover:shadow-md hover:scale-105 transition-all duration-300"><img src="images/brands/brand (20).png" alt="Edwards" class="object-contain h-9 w-auto grayscale hover:grayscale-0"></div>
+                </div>
+                <!-- Duplicate -->
+                <div class="flex gap-6 shrink-0" aria-hidden="true">
+                    <div class="w-48 h-20 bg-white border border-gray-100 rounded-2xl shadow-sm flex items-center justify-center p-4"><img src="images/brands/brand (11).png" class="object-contain h-9 w-auto grayscale"></div>
+                    <div class="w-48 h-20 bg-white border border-gray-100 rounded-2xl shadow-sm flex items-center justify-center p-4"><img src="images/brands/brand (12).png" class="object-contain h-9 w-auto grayscale"></div>
+                    <div class="w-48 h-20 bg-white border border-gray-100 rounded-2xl shadow-sm flex items-center justify-center p-4"><img src="images/brands/brand (13).png" class="object-contain h-9 w-auto grayscale"></div>
+                    <div class="w-48 h-20 bg-white border border-gray-100 rounded-2xl shadow-sm flex items-center justify-center p-4"><img src="images/brands/brand (14).png" class="object-contain h-9 w-auto grayscale"></div>
+                    <div class="w-48 h-20 bg-white border border-gray-100 rounded-2xl shadow-sm flex items-center justify-center p-4"><img src="images/brands/brand (15).png" class="object-contain h-9 w-auto grayscale"></div>
+                    <div class="w-48 h-20 bg-white border border-gray-100 rounded-2xl shadow-sm flex items-center justify-center p-4"><img src="images/brands/brand (16).png" class="object-contain h-9 w-auto grayscale"></div>
+                    <div class="w-48 h-20 bg-white border border-gray-100 rounded-2xl shadow-sm flex items-center justify-center p-4"><img src="images/brands/brand (17).png" class="object-contain h-9 w-auto grayscale"></div>
+                    <div class="w-48 h-20 bg-white border border-gray-100 rounded-2xl shadow-sm flex items-center justify-center p-4"><img src="images/brands/brand (18).png" class="object-contain h-9 w-auto grayscale"></div>
+                    <div class="w-48 h-20 bg-white border border-gray-100 rounded-2xl shadow-sm flex items-center justify-center p-4"><img src="images/brands/brand (19).png" class="object-contain h-9 w-auto grayscale"></div>
+                    <div class="w-48 h-20 bg-white border border-gray-100 rounded-2xl shadow-sm flex items-center justify-center p-4"><img src="images/brands/brand (20).png" class="object-contain h-9 w-auto grayscale"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        @keyframes marquee-left {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+        @keyframes marquee-right {
+            0% { transform: translateX(-50%); }
+            100% { transform: translateX(0); }
+        }
+        .animate-marquee-left {
+            animation: marquee-left 40s linear infinite;
+        }
+        .animate-marquee-right {
+            animation: marquee-right 40s linear infinite;
+        }
+    </style>
+</section>
 
 
   </body>
